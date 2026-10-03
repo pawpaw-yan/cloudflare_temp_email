@@ -6,14 +6,14 @@ compatibility_flags = ["nodejs_compat"] # 必需，用于邮件解析模块[refe
 # --- D1 数据库绑定 (必需) ---
 [[d1_databases]]
 binding = "DB" # 在 Worker 代码中通过 env.DB 访问
-database_name = "你的数据库名称"
-database_id = "你的数据库ID" # 从 Cloudflare D1 控制台获取[reference:2]
+database_name = "cloudflare-tmp-email"
+database_id = "aa19caad-a2d1-43f5-8ab0-3d58042351f5" # 从 Cloudflare D1 控制台获取[reference:2]
 
 # --- KV 命名空间绑定 (可选，但推荐) ---
 # 用于注册验证码、Telegram Bot 会话等[reference:3]
 [[kv_namespaces]]
 binding = "KV"
-id = "你的KV命名空间ID" # 从 Cloudflare KV 控制台获取[reference:4]
+id = "b61260adff8848db92ea503a36d5bc39" # 从 Cloudflare KV 控制台获取[reference:4]
 
 # --- 限流器绑定 (可选) ---
 # 用于限制 /api/new_address 请求频率[reference:5]
