@@ -36,7 +36,7 @@ DOMAINS = ["yxt-edge.cc.cd"]
 # 是否允许用户自行创建邮箱地址
 ENABLE_USER_CREATE_EMAIL = true
 
-JWT_SECRET = gZTVFOGZQM2HcgciYPvP0sIS
+JWT_SECRET = "gZTVFOGZQM2HcgciYPvP0sIS"
 # Admin 控制台密码，不配置则无法访问
 ADMIN_PASSWORDS = ["qq493497427"]
 
