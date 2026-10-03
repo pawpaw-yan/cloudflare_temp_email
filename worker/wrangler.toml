@@ -45,3 +45,8 @@ ENABLE_WEBHOOK = false
 
 # 清理任务每次处理的记录数
 CLEANUP_BATCH_SIZE = 3000
+
+
+[assets]
+directory = "../frontend/dist"
+binding = "ASSETS"
